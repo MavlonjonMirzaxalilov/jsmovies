@@ -2,7 +2,7 @@ fetch('https://6560acc483aba11d99d151a5.mockapi.io/api/movies')
 	.then(response => response.json())
 	.then(data => {
 		data.forEach(movie => {
-			console.log(movie)
+			
 
 			let box = document.querySelector('.quti')
 			box.innerHTML += `
